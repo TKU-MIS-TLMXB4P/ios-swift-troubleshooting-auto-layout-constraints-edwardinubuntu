@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,27 +18,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLe-cF-M6T">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLe-cF-M6T">
                                 <rect key="frame" x="20" y="28" width="57" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Top Left"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJ8-Yk-sWB">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJ8-Yk-sWB">
                                 <rect key="frame" x="514" y="28" width="66" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Top Right"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GeY-H0-C7E">
-                                <rect key="frame" x="20" y="550" width="81" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GeY-H0-C7E">
+                                <rect key="frame" x="20" y="560" width="81" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Bottom Left"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KIx-yS-b5K">
-                                <rect key="frame" x="490" y="550" width="90" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KIx-yS-b5K">
+                                <rect key="frame" x="490" y="560" width="90" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Bottom Right"/>
                             </button>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="aLp-wS-ESo">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="aLp-wS-ESo">
                                 <rect key="frame" x="20" y="66" width="560" height="29"/>
                                 <animations/>
                                 <segments>
@@ -48,17 +49,17 @@
                                     <segment title="Fifth"/>
                                 </segments>
                             </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title: An interesting title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9y-qh-lnE">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title: An interesting title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9y-qh-lnE">
                                 <rect key="frame" x="20" y="102" width="560" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T6c-zd-XJ2">
-                                <rect key="frame" x="20" y="131" width="560" height="369"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T6c-zd-XJ2">
+                                <rect key="frame" x="20" y="131" width="560" height="244"/>
                                 <animations/>
-                                <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper lacus at blandit bibendum. Phasellus id hendrerit ipsum. Donec imperdiet ipsum sollicitudin, rhoncus tellus ut, aliquet turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed non mattis arcu. Integer tempus elit in varius congue. Phasellus efficitur imperdiet commodo. Suspendisse potenti. In elit justo, aliquet nec risus sed, volutpat tempor enim. Mauris venenatis lectus sed est placerat, nec vulputate ante feugiat. Fusce quis varius augue. In malesuada sit amet odio sit amet sagittis. In volutpat dolor vel ex efficitur suscipit. Suspendisse sed ante lorem. Quisque cursus mollis metus, id imperdiet libero imperdiet ut. Vestibulum lacinia iaculis turpis, sit amet maximus massa venenatis non.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper lacus at blandit bibendum. Phasellus id hendrerit ipsum. Donec imperdiet ipsum sollicitudin, rhoncus tellus ut, aliquet turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed non mattis arcu. Integer tempus elit in varius congue. Phasellus efficitur imperdiet commodo. Suspendisse potenti. In elit justo, aliquet nec risus sed, volutpat tempor enim. Mauris venenatis lectus sed est placerat, nec vulputate ante feugiat. Fusce quis varius augue. In malesuada sit amet odio sit amet sagittis. In volutpat dolor vel ex efficitur suscipit. Suspendisse sed ante lorem. Quisque cursus mollis metus, id imperdiet libero imperdiet ut. Vestibulum lacinia iaculis turpis, sit amet maximus massa venenatis non.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -66,6 +67,25 @@
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="aLp-wS-ESo" secondAttribute="trailing" id="1vE-NO-j6p"/>
+                            <constraint firstItem="T6c-zd-XJ2" firstAttribute="top" secondItem="i9y-qh-lnE" secondAttribute="bottom" constant="8" id="2Au-gM-Zau"/>
+                            <constraint firstItem="hJ8-Yk-sWB" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="3Lh-Y3-1yM"/>
+                            <constraint firstItem="i9y-qh-lnE" firstAttribute="top" secondItem="aLp-wS-ESo" secondAttribute="bottom" constant="8" id="9Hx-Zd-7Dt"/>
+                            <constraint firstItem="hJ8-Yk-sWB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="9oC-Ku-Wwv"/>
+                            <constraint firstItem="YLe-cF-M6T" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ErO-Pd-Wlg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KIx-yS-b5K" secondAttribute="bottom" constant="10" id="KSY-5d-PAo"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GeY-H0-C7E" secondAttribute="bottom" constant="10" id="SYv-tX-BV9"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="aLp-wS-ESo" secondAttribute="leading" id="Sg9-Cb-pj8"/>
+                            <constraint firstItem="YLe-cF-M6T" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Yoi-m8-Z8H"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="T6c-zd-XJ2" secondAttribute="leading" id="iEc-9F-NsO"/>
+                            <constraint firstItem="KIx-yS-b5K" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ida-Bu-zca"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="T6c-zd-XJ2" secondAttribute="trailing" id="k9G-lM-JPo"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="i9y-qh-lnE" secondAttribute="leading" id="kpi-ZP-HUq"/>
+                            <constraint firstItem="GeY-H0-C7E" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="nAx-m6-qv6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="i9y-qh-lnE" secondAttribute="trailing" id="qOd-ac-DQL"/>
+                            <constraint firstItem="aLp-wS-ESo" firstAttribute="top" secondItem="YLe-cF-M6T" secondAttribute="bottom" constant="8" id="w2m-kb-8I9"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
