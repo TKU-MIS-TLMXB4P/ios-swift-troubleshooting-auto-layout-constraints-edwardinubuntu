@@ -56,31 +56,41 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T6c-zd-XJ2">
-                                <rect key="frame" x="20" y="131" width="560" height="244"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="R1U-Sz-1Ma">
+                                <rect key="frame" x="20" y="131" width="560" height="421"/>
                                 <animations/>
-                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper lacus at blandit bibendum. Phasellus id hendrerit ipsum. Donec imperdiet ipsum sollicitudin, rhoncus tellus ut, aliquet turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed non mattis arcu. Integer tempus elit in varius congue. Phasellus efficitur imperdiet commodo. Suspendisse potenti. In elit justo, aliquet nec risus sed, volutpat tempor enim. Mauris venenatis lectus sed est placerat, nec vulputate ante feugiat. Fusce quis varius augue. In malesuada sit amet odio sit amet sagittis. In volutpat dolor vel ex efficitur suscipit. Suspendisse sed ante lorem. Quisque cursus mollis metus, id imperdiet libero imperdiet ut. Vestibulum lacinia iaculis turpis, sit amet maximus massa venenatis non.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In blandit erat diam. Sed nisi velit, venenatis in consectetur id, dapibus sed lectus. Phasellus accumsan accumsan felis molestie tempus. Phasellus vitae eleifend est. Donec iaculis quis ante in iaculis. Maecenas vel lorem placerat, eleifend eros vel, iaculis nisl. Ut quis malesuada augue. Pellentesque nunc nibh, tempus at mollis nec, elementum vitae purus. Integer et nibh mollis turpis vulputate efficitur.
+
+Donec aliquam urna sed nisi luctus, non gravida lorem lobortis. Quisque auctor vitae leo non sodales. Aliquam erat volutpat. Fusce malesuada ornare tortor. Morbi quis finibus felis. Nulla egestas metus efficitur suscipit bibendum. Sed turpis nulla, lobortis in tempor non, iaculis in leo. Curabitur dapibus elementum luctus. Fusce porttitor diam libero, faucibus eleifend est suscipit id. Vivamus massa justo, vestibulum eu lectus sed, congue pellentesque sapien.
+
+Aliquam hendrerit nulla congue justo luctus pulvinar. Morbi at rhoncus neque. Donec sit amet feugiat libero, a sollicitudin mi. Mauris nec eleifend erat, eu fermentum sem. Aliquam porttitor cursus faucibus. Nunc lobortis est ac facilisis porttitor. Integer feugiat est sed tellus pellentesque pharetra id ut magna.
+
+Pellentesque condimentum egestas nisi sed hendrerit. Vestibulum ultrices risus hendrerit, facilisis orci vel, tincidunt lorem. Donec lacinia rutrum feugiat. Sed at lacus aliquet, pharetra sapien ac, tincidunt nulla. Nam dignissim mi vel dolor dignissim, pretium auctor metus pharetra. Nullam vehicula, felis quis aliquam lacinia, libero velit iaculis velit, eu tincidunt lectus est quis dui. Cras aliquam neque sit amet maximus ornare. Vestibulum ultricies molestie bibendum. Donec efficitur diam sapien, in accumsan risus gravida maximus.
+
+Ut enim dui, porta id magna quis, finibus vestibulum lacus. Integer imperdiet faucibus dictum. Suspendisse lacus lacus, convallis eu ipsum id, lacinia imperdiet sapien. In a leo interdum, varius orci ac, vestibulum libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed quis ante sit amet augue tempus aliquam. Nullam at auctor mi. Donec dignissim vel elit sed efficitur. Duis pulvinar neque sed elit varius congue.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="aLp-wS-ESo" secondAttribute="trailing" id="1vE-NO-j6p"/>
-                            <constraint firstItem="T6c-zd-XJ2" firstAttribute="top" secondItem="i9y-qh-lnE" secondAttribute="bottom" constant="8" id="2Au-gM-Zau"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="R1U-Sz-1Ma" secondAttribute="bottom" constant="48" id="2a9-IF-olO"/>
                             <constraint firstItem="hJ8-Yk-sWB" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="3Lh-Y3-1yM"/>
                             <constraint firstItem="i9y-qh-lnE" firstAttribute="top" secondItem="aLp-wS-ESo" secondAttribute="bottom" constant="8" id="9Hx-Zd-7Dt"/>
                             <constraint firstItem="hJ8-Yk-sWB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="9oC-Ku-Wwv"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="R1U-Sz-1Ma" secondAttribute="leading" id="BZf-WI-oFF"/>
                             <constraint firstItem="YLe-cF-M6T" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ErO-Pd-Wlg"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="R1U-Sz-1Ma" secondAttribute="leading" id="H0c-2p-ISB"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KIx-yS-b5K" secondAttribute="bottom" constant="10" id="KSY-5d-PAo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="R1U-Sz-1Ma" secondAttribute="trailing" id="Mht-ym-tkH"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GeY-H0-C7E" secondAttribute="bottom" constant="10" id="SYv-tX-BV9"/>
                             <constraint firstAttribute="leadingMargin" secondItem="aLp-wS-ESo" secondAttribute="leading" id="Sg9-Cb-pj8"/>
                             <constraint firstItem="YLe-cF-M6T" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Yoi-m8-Z8H"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="T6c-zd-XJ2" secondAttribute="leading" id="iEc-9F-NsO"/>
                             <constraint firstItem="KIx-yS-b5K" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ida-Bu-zca"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="T6c-zd-XJ2" secondAttribute="trailing" id="k9G-lM-JPo"/>
+                            <constraint firstItem="R1U-Sz-1Ma" firstAttribute="top" secondItem="i9y-qh-lnE" secondAttribute="bottom" constant="8" id="kBs-zp-YoB"/>
                             <constraint firstAttribute="leadingMargin" secondItem="i9y-qh-lnE" secondAttribute="leading" id="kpi-ZP-HUq"/>
                             <constraint firstItem="GeY-H0-C7E" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="nAx-m6-qv6"/>
                             <constraint firstAttribute="trailingMargin" secondItem="i9y-qh-lnE" secondAttribute="trailing" id="qOd-ac-DQL"/>
